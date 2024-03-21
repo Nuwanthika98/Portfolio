@@ -4,6 +4,9 @@
 
 This is a responsive portfolio website created using HTML, SCSS, and JavaScript.
 
+## Link to website
+https://nuwanthika98.github.io/Portfolio/
+
 ## Features
 
 - **Responsive Design:** The website is designed to be responsive, ensuring optimal viewing experience across various devices including desktops, tablets, and mobile phones.
