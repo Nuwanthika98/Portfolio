@@ -31,4 +31,4 @@ This is a responsive portfolio website created using HTML, SCSS, and JavaScript.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/Nuwanthika98/portfolio-website.git
