@@ -448,4 +448,27 @@ section {
   .projects .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+@media (max-width: 600px) {
+  .projects h2 {
+    margin-bottom: 3rem;
+  }
+  .projects .project-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home .home-content h3 {
+    font-size: 2.1rem;
+  }
+  .home .home-content h1 {
+    font-size: 4.6rem;
+  }
+  .home .home-img {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: calc(100% - 10rem);
+    height: 350px;
+  }
 }/*# sourceMappingURL=style.css.map */
