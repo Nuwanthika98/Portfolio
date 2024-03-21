@@ -1,4 +1,4 @@
-let menuIcon = document.querySelector('menu-icon');
+let menuIcon = document.querySelector('#menu-icon');
 let navbar= document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
@@ -23,4 +23,27 @@ window.onscroll=()=>{
             })
         }
     })
+
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 }
+
+ScrollReveal({ 
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 100
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skill-item, .project-box, .blog, .contact-content', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+const typed = new Typed('.multiple-text',{
+    strings: ['an Undergraduate!','a Software Engineer!'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
