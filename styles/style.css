@@ -454,6 +454,9 @@ section {
     display: block;
     font-size: 3.6rem;
   }
+  .navbar {
+    width: 100%;
+  }
   .projects h2 {
     margin-bottom: 3rem;
   }
