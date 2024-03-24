@@ -454,6 +454,9 @@ section {
     display: block;
     font-size: 3.6rem;
   }
+  .navbar {
+    width: 100%;
+  }
   .projects h2 {
     margin-bottom: 3rem;
   }
@@ -479,7 +482,7 @@ section {
   .home .home-img {
     margin-top: 3rem;
     margin-left: 2rem;
-    width: calc(100% - 10rem);
+    width: calc(100% - 5rem);
     height: 350px;
   }
   .header {
