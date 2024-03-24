@@ -491,5 +491,6 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
+    overflow-x: hidden;
   }
 }/*# sourceMappingURL=style.css.map */
