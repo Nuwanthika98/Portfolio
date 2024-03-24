@@ -155,7 +155,7 @@ section {
 .about .about-content .about-skills .skills-heading {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .about .about-content .about-skills .skills {
   display: grid;
@@ -450,11 +450,20 @@ section {
   }
 }
 @media (max-width: 600px) {
+  #menu-icon {
+    display: block;
+    font-size: 3.6rem;
+  }
   .projects h2 {
     margin-bottom: 3rem;
   }
   .projects .project-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .about .about-content .about-skills .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
   }
   .home {
     flex-direction: column;
@@ -477,29 +486,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 100%;
     padding: 2rem 9%;
-  }
-}
-@media (max-width: 350px) {
-  .home {
-    flex-direction: column;
-  }
-  .home .home-content h3 {
-    font-size: 2.1rem;
-    text-align: center;
-  }
-  .home .home-content h1 {
-    font-size: 4.6rem;
-    text-align: center;
-  }
-  .home .home-content .social-media {
-    align-items: center;
-  }
-  .home .home-img {
-    margin-top: 3rem;
-    margin-left: 2rem;
-    width: calc(100% - 10rem);
-    height: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
