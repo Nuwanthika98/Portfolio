@@ -482,7 +482,7 @@ section {
   .home .home-img {
     margin-top: 3rem;
     margin-left: 2rem;
-    width: calc(100% - 10rem);
+    width: calc(100% - 5rem);
     height: 350px;
   }
   .header {
